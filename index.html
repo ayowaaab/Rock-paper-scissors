@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+</head>
+<body>
+    
+    <div class="game">
+        <div class="title">
+            <img src="images/logo.svg" alt="logo">
+                <div class="score">
+                    <p>Score</p><p id="score">0</p>
+                </div>
+        </div>
+        <div class="choice">
+            <img id="triangle" src="images/bg-triangle.svg" alt="triangle">
+                <div id="gap-img" style="display: flex;">
+                    <img class="icon-scissors chose-one cercle" src="images/icon-scissors.svg" alt="scissors">
+                    <img class="icon-paper chose-one cercle" src="images/icon-paper.svg" alt="paper">  
+                </div>
+                    <img class="icon-rock chose-one cercle" src="images/icon-rock.svg" alt="rock">
+        </div>
+        <div class="picked">
+            <div>
+                <img class="cercle chosen" src="" alt="choice">
+                <h1>You Picked</h1>
+            </div>
+            <div>
+                <img class="cercle house" src="" alt="house">
+                <h1>The House Picked</h1>
+            </div>
+         
+        </div>
+        <div class="end-game">
+            <h1></h1>
+            <button id="end-btn">Play Again</button>
+        </div>
+        <!--! rules -->
+      <button id="rule-btn">Rules</button>
+      <div class="rules">
+            <h1>Rules</h1>
+          <img id="image-rules" src="images/image-rules.svg" alt="rules.svg">
+          <img id="icon-close" src="images/icon-close.svg" alt="rules.svg">
+      </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
